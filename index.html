@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noé Ribeiro - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#inicio">Noé Ribeiro</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#sobre" class="nav-link">Sobre mim</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Início -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Olá, eu sou <span class="highlight">Noé Ribeiro</span></h1>
+                <p class="hero-subtitle">Estudante de Engenharia de Software</p>
+                <p class="hero-description">
+                    Apaixonado por tecnologia e desenvolvimento de software. 
+                    Sempre em busca de novos desafios e oportunidades de aprendizado.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <img src="/image/foto-perfil.jpg" alt="Noé Ribeiro" class="profile-photo">
+                    </div>
+                    <h3>Noé Ribeiro</h3>
+                    <p>Engenharia de Software</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Minha História</h3>
+                    <p>
+                        Sou um estudante dedicado de Engenharia de Software, apaixonado por criar soluções 
+                        tecnológicas que fazem a diferença. Minha jornada na programação começou com curiosidade 
+                        sobre como os sistemas funcionam e evoluiu para uma paixão genuína por desenvolvimento.
+                    </p>
+                    <p>
+                        Acredito que a tecnologia tem o poder de transformar vidas e resolver problemas complexos. 
+                        Por isso, estou sempre buscando aprender novas tecnologias e metodologias para me tornar 
+                        um desenvolvedor mais completo e eficiente.
+                    </p>
+                    <p>
+                        Além disso, estou começando a trilhar meu caminho na criação de conteúdo sobre tecnologia, compartilhando minha jornada e aprendizados para inspirar outras pessoas que também desejam ingressar na área.
+                    </p>
+                    
+                    <h3>Hobbies e Interesses</h3>
+                    <div class="hobbies-grid">
+                        <div class="hobby-item">
+                            <i class="fas fa-code"></i>
+                            <span>Programação</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Jogos</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-book"></i>
+                            <span>Leitura</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-music"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-running"></i>
+                            <span>Exercícios</span>
+                        </div>
+                        <div class="hobby-item">
+                            <i class="fas fa-camera"></i>
+                            <span>Fotografia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <h3>Competências Técnicas</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Formação -->
+    <section id="formacao" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Formação</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Engenharia de Software</h3>
+                        <p class="timeline-period">2024 - Presente</p>
+                        <p class="timeline-institution">UNINTER</p>
+                        <p>Curso focado em desenvolvimento de software, arquitetura de sistemas e engenharia de software.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Curso de Desenvolvimento Web</h3>
+                        <p class="timeline-period">2025</p>
+                        <p class="timeline-institution">Sujeito Programador</p>
+                        <p>Curso completo de desenvolvimento web com HTML5, CSS3 e JavaScript.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="languages-section">
+                <h3>Idiomas</h3>
+                <div class="languages-grid">
+                    <div class="language-item">
+                        <span class="language-name">Português</span>
+                        <span class="language-level">Nativo</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Inglês</span>
+                        <span class="language-level">Intermediário</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Espanhol</span>
+                        <span class="language-level">Básico</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Portfólio -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfólio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Sistema de Gestão</h3>
+                        <p>Sistema web para gestão de estoque desenvolvido com HTML, CSS e JavaScript.</p>
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Calculadora Avançada</h3>
+                        <p>Calculadora com interface moderna e funcionalidades avançadas.</p>
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Jogo da Memória</h3>
+                        <p>Jogo da memória interativo desenvolvido com JavaScript puro.</p>
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <i class="fas fa-weather-sun"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>App de Clima</h3>
+                        <p>Aplicação web para consulta de previsão do tempo com API externa.</p>
+                        <div class="portfolio-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="portfolio-links">
+                            <a href="#" class="btn btn-small">Ver Projeto</a>
+                            <a href="#" class="btn btn-small btn-outline">Código</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato comigo!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>noeribeiro78@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>+55 (41) 9 8415-8118</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>www.linkedin.com/in/noé-ribeiro</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>https://github.com/noeribeiro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome *</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <span class="error-message" id="nome-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <span class="error-message" id="mensagem-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    </form>
+                    
+                    <div id="success-message" class="success-message" style="display: none;">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Mensagem enviada com sucesso!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Noé Ribeiro. Todos os direitos reservados.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
